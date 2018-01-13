@@ -254,6 +254,9 @@ body {
     padding-top: 40px;
     padding-bottom: 40px; }
 
+  .content-section {
+    padding: 0 30px; }
+
   .events .event-content {
     left: 20px;
     bottom: 20px;
