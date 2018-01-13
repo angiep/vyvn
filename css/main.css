@@ -260,6 +260,10 @@ body {
   .content-section {
     padding: 0 30px; }
 
+  .logo-icon {
+    padding-top: 10px;
+    font-size: 160px; }
+
   .events .event-content {
     left: 20px;
     bottom: 20px;
