@@ -31,8 +31,8 @@ body {
 }
 
 .colored-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     &.gray-1 {
         background-color: lighten(#111, 1);
@@ -96,23 +96,28 @@ and (max-width: $screenTabletMax) {
 and (max-width: $screenMobileMax) {
 
     .colored-section {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .events {
 
         .event-content {
-            left: 10%;
+            left: 20px;
+            bottom: 20px;
+            top: auto;
+        }
+
+        .event-image-background {
+            height: 250px;
         }
 
         .event-date {
-            font-size: 14px;
-            opacity: 0.9;
+            font-size: 18px;
         }
 
         .event-title {
-            font-size: 20px;
+            font-size: 30px;
             line-height: 30px;
         }
     }

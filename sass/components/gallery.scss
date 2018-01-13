@@ -31,6 +31,10 @@
 
     @media screen
     and (max-width: $screenMobileMax) {
+        .event {
+            margin-top: 30px;
+        }
+
         .col-4 {
             width: 100%;
         }

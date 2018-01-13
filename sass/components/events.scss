@@ -2,7 +2,6 @@
 
     .event {
         display: block;
-        margin-bottom: 50px;
     }
 
     .event-wrapper {
@@ -22,6 +21,15 @@
         &.darker {
             opacity: 0.6;
         }
+    }
+
+    .event-image-background {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(https://s3.amazonaws.com/vyvn/images/events/vyvn-feb-3-cover.jpg);
+        width: 100%;
+        height: 300px;
     }
 
     .event-title {

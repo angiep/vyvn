@@ -151,12 +151,13 @@ a {
   .gallery .col-4 {
     width: 50%; } }
 @media screen and (max-width: 540px) {
+  .gallery .event {
+    margin-top: 30px; }
   .gallery .col-4 {
     width: 100%; } }
 
 .events .event {
-  display: block;
-  margin-bottom: 50px; }
+  display: block; }
 .events .event-wrapper {
   background-color: #000;
   position: relative; }
@@ -168,6 +169,13 @@ a {
   width: 100%; }
   .events .event-image.darker {
     opacity: 0.6; }
+.events .event-image-background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://s3.amazonaws.com/vyvn/images/events/vyvn-feb-3-cover.jpg);
+  width: 100%;
+  height: 300px; }
 .events .event-title {
   font-size: 37px;
   font-weight: 600;
@@ -201,8 +209,8 @@ body {
   display: flex; }
 
 .colored-section {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .colored-section.gray-1 {
     background-color: #141414; }
   .colored-section.gray-2 {
@@ -243,16 +251,19 @@ body {
     padding: 0 50px; } }
 @media screen and (max-width: 540px) {
   .colored-section {
-    padding-top: 50px;
-    padding-bottom: 50px; }
+    padding-top: 40px;
+    padding-bottom: 40px; }
 
   .events .event-content {
-    left: 10%; }
+    left: 20px;
+    bottom: 20px;
+    top: auto; }
+  .events .event-image-background {
+    height: 250px; }
   .events .event-date {
-    font-size: 14px;
-    opacity: 0.9; }
+    font-size: 18px; }
   .events .event-title {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
