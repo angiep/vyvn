@@ -195,6 +195,29 @@ a {
   left: 6%;
   margin-top: -34px; }
 
+.mailing-list {
+  text-align: center; }
+  .mailing-list.colored-section {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .mailing-list .email,
+  .mailing-list .button {
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 12px; }
+  .mailing-list .email {
+    margin-right: 10px;
+    width: 50%; }
+  .mailing-list .button {
+    background-color: #1997c6;
+    color: #fff;
+    letter-spacing: 0.5px; }
+    .mailing-list .button:hover {
+      background-color: #1682ab;
+      cursor: pointer; }
+
 body {
   background-color: #111;
   color: #fff;
@@ -263,6 +286,12 @@ body {
   .logo-icon {
     padding-top: 10px;
     font-size: 160px; }
+
+  .mailing-list .main-header {
+    line-height: 30px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto; }
 
   .events .event-content {
     left: 20px;
