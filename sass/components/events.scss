@@ -1,6 +1,7 @@
 .events {
 
     .event {
+        color: #fefefe;
         display: block;
     }
 
@@ -15,7 +16,7 @@
 
     .event-image {
         display: block;
-        opacity: 0.9;
+        opacity: 0.85;
         width: 100%;
 
         &.darker {
@@ -27,7 +28,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(https://s3.amazonaws.com/vyvn/images/events/vyvn-feb-3-cover.jpg);
+        background-image: url(https://s3.amazonaws.com/vyvn/images/gallery/vyvn-burning-man-17/thumbnails/14.jpg);
         width: 100%;
         height: 300px;
     }
@@ -42,7 +43,6 @@
     .event-date {
         font-size: 24px;
         font-weight: 400;
-        opacity: 0.8;
         text-transform: uppercase;
     }
 
