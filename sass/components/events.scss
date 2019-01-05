@@ -28,7 +28,8 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(https://s3.amazonaws.com/vyvn/images/gallery/vyvn-burning-man-17/thumbnails/14.jpg);
+        background-image: url(https://s3.amazonaws.com/vyvn/images/gallery/vyvn-02-03-18/thumbnails/23.jpg);
+        transform: scaleX(-1);
         width: 100%;
         height: 300px;
     }
@@ -48,7 +49,7 @@
 
     .event-content {
         position: absolute;
-        top: 77%;
+        top: 33%;
         left: 6%;
         margin-top: -34px;
     }
